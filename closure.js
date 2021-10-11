@@ -8,7 +8,7 @@
 }; */
 
 const bank = (owner) => {
-  balance = 0;
+  balance = 0; //array function object এর ন্যায় তাই এর ভিতরে balance একটি প্রোপার্টি মত আচরন করতে পারে;
   return {
     deposit: (amount) => {
       // balance = balance + amount;
